@@ -63,3 +63,4 @@ docker run -itd --name nginx-container -p 80:80 --network=bridge nginx:1.23.1-al
 启动php容器使用nginx-container的容器网络(共享nginx-container网络)
 docker run -itd --name php-container --network=container:nginx-container php:7.4.30-fpm-alpine
 
+第一天作业完
